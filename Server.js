@@ -20,8 +20,7 @@ const __dirname = path.resolve();
 
 
 const allowedOrigins = [
-  'http://localhost:5173',
-  'https://ecommerce-4ljp.onrender.com'
+  'https://nodekart.vercel.app/'
 ];
 
 app.use(cors({
