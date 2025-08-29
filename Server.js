@@ -25,7 +25,7 @@ const allowedOrigins = [
 
 app.use(
   cors({
-    origin: "https://nodekart-git-main-velagasubhashs-projects.vercel.app",
+    origin: "https://nodekart.vercel.app",
     credentials: true,
   })
 );
