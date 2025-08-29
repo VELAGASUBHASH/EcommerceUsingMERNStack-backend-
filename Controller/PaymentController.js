@@ -62,8 +62,8 @@ export const createCheckoutSession = async (req, res) => {
       payment_method_types: ["card"],
       line_items,
       mode: "payment",
-      success_url: `${process.env.client_url}/purchase-success?session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `${process.env.client_url}/cancel`,
+      success_url: `https://nodekart.vercel.app/purchase-success?session_id={CHECKOUT_SESSION_ID}`,
+      cancel_url: `https://nodekart.vercel.app/cancel`,
       discounts: stripeCouponId ? [{ coupon: stripeCouponId }] : [],
       metadata: {
         userId: req.user._id.toString(),
