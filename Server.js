@@ -24,7 +24,7 @@ const allowedOrigins = [
 ];
 
 app.use(cors({
-  origin: allowedOrigins,
+  origin: "https://nodekart.vercel.app/",
   credentials: true
 }));
 
