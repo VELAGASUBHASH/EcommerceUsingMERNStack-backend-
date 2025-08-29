@@ -20,7 +20,7 @@ const __dirname = path.resolve();
 
 
 const allowedOrigins = [
-  "https://nodekart-git-main-velagasubhashs-projects.vercel.app"
+  'https://nodekart.vercel.app'
 ];
 
 app.use(cors({
